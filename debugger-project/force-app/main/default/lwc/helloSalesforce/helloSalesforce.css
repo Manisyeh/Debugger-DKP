@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e4f2ff;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #0176d3;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    color: #16325c;
+    font-size: 16px;
+}

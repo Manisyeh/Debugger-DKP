@@ -1,0 +1,10 @@
+<apex:page standardController="Trainee__c">
+<h1>Congratulations this page Works</h1>
+<apex:pageBlock >
+      <apex:pageBlockTable value="{!Trainee__c}" var="EachT">
+         <apex:column value="{!EachT.Name}"/>
+         <apex:column value="{!EachT.Email__c}"/>
+      </apex:pageBlockTable>
+   </apex:pageBlock>
+
+</apex:page>

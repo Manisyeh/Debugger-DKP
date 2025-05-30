@@ -1,0 +1,29 @@
+.emoji-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.emoji-button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.emoji-button:hover {
+    transform: scale(1.2);
+}
+
+.message-box {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

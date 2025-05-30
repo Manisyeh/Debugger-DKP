@@ -1,0 +1,9 @@
+.slds-text-color_destructive {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+lightning-datatable {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

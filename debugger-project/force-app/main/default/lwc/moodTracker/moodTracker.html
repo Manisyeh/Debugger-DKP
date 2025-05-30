@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="How Are You Feeling Today?" icon-name="custom:custom25">
+        <div class="emoji-container">
+            <template for:each={moods} for:item="mood">
+                <button key={mood.label} class="emoji-button" onclick={handleMoodClick} data-label={mood.label}>
+                    <span title={mood.label}>{mood.emoji}</span>
+                </button>
+            </template>
+        </div>
+
+        <template if:true={selectedMood}>
+            <div class="message-box">
+                <p>{selectedMessage}</p>
+            </div>
+        </template>
+    </lightning-card>
+</template>

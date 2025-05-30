@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Personalized Greeting" icon-name="custom:custom28">
+        <div class="slds-p-around_medium">
+            <lightning-input 
+                type="text" 
+                label="Enter Your Name" 
+                value={userName} 
+                onchange={handleNameChange}>
+            </lightning-input>
+            <div class="slds-m-top_medium">
+                <h2 class="slds-text-heading_medium">
+                    {greetingMessage}
+                </h2>
+            </div>
+        </div>
+    </lightning-card>
+</template>

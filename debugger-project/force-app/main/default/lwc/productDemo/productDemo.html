@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title={name} icon-name="standard:product">
+        <div class="slds-p-around_medium">
+            <lightning-record-view-form record-id={recordId} object-api-name="Product__c">
+                <lightning-carousel-image
+                    src={Picture_URL__c}></lightning-carousel-image>
+                <div>
+                <lightning-output-field field-name="Category__c">
+                </lightning-output-field>
+                <lightning-output-field field-name="Level__c">
+                </lightning-output-field>
+                <lightning-output-field field-name="MSRP__c">
+                </lightning-output-field>
+            </div>
+            </lightning-record-view-form>
+        </div>
+        
+    </lightning-card>
+</template>
